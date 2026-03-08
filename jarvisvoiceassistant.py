@@ -23,8 +23,6 @@ import pyttsx3  # local TTS
 # ---------- API KEYS ----------
 OPENAI_API_KEY = "KEY"
 
-VOICE_ID = "JBFqnCBsd6RMkjVDRZzb"
-
 gpt_client = OpenAI(api_key=OPENAI_API_KEY)
 
 WAKE_WORDS = ["hey jarvis", "okay jarvis", "yo jarvis", "jarvis"]
@@ -367,3 +365,4 @@ if __name__ == "__main__":
     root = tk.Tk()
     app = JarvisApp(root)
     root.mainloop()
+
